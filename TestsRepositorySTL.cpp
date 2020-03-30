@@ -2,8 +2,9 @@
 #include "Rezervare.h"
 #include <assert.h>
 #include <list>
+/*
 template<class Elem>
-void Teste<Elem>::TestsRepo(RepositorySTL<Elem> elem)
+TestsRepo(RepositorySTL<Elem> elem)
 {
 	
 	char* nume1 = new char[10];
@@ -25,3 +26,4 @@ void Teste<Elem>::TestsRepo(RepositorySTL<Elem> elem)
 	assert(int(elem.getAll().size()) == 2);
 
 }
+*/
