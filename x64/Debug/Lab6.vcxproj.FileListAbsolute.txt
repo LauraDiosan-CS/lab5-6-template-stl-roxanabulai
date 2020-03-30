@@ -1,0 +1,2 @@
+C:\Users\ROXANA\Desktop\Lab-uri OOP\Lab6\x64\Debug\Lab6.exe
+C:\Users\ROXANA\Desktop\Lab-uri OOP\Lab6\x64\Debug\Lab6.pdb
