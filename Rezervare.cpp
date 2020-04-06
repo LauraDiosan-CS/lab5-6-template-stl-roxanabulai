@@ -21,9 +21,9 @@ Rezervare::Rezervare(const Rezervare& s) {
 	this->nume = new char[strlen(s.nume) + 1];
 	strcpy_s(this->nume, strlen(s.nume) + 1, s.nume);
 
-	this->cod = cod;
+	this->cod = s.cod;
 
-	this->loc = loc;
+	this->loc = s.loc;
 }
 
 char* Rezervare::getNume() { return nume; }
@@ -63,7 +63,7 @@ Rezervare& Rezervare::operator=(const Rezervare& s)
 
 bool Rezervare::operator ==(const Rezervare& s)
 {
-	return strcmp(nume, s.nume) == 0 &&  (cod == s.cod) && (loc==s.loc);
+	return (strcmp(nume, s.nume) == 0) &&  (cod == s.cod) && (loc==s.loc);
 }
 
 Rezervare ::~Rezervare()
@@ -73,11 +73,12 @@ Rezervare ::~Rezervare()
 	nume = NULL;
 	loc = -1;
 	cod = -1;
+	
 }
 
 ostream& operator<<(ostream& os, const Rezervare& s)
 {
-	os << s.cod << " " << s.nume << " " << s.loc;
+	os <<"Zborul cu numarul: "<< s.cod << " pe numele: " << s.nume << " cu locul: " << s.loc<<endl;
 	return os;
 }
 

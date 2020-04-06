@@ -138,17 +138,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="TestsFunct1.h" />
+    <ClInclude Include="UtilizatorRez.h" />
+    <ClInclude Include="RepoFile.h" />
     <ClInclude Include="Rezervare.h" />
     <ClInclude Include="RepositorySTL.h" />
+    <ClInclude Include="Service.h" />
     <ClInclude Include="TestsRezervare.h" />
     <ClInclude Include="TestsRepositorySTL.h" />
+    <ClInclude Include="TestsService.h" />
+    <ClInclude Include="UI.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Rezervare.cpp" />
-    <ClCompile Include="RepositorySTL.cpp" />
+    <ClCompile Include="Service.cpp" />
+    <ClCompile Include="TestFunct1.cpp" />
+    <ClCompile Include="TestService.cpp" />
     <ClCompile Include="TestsRezervare.cpp" />
     <ClCompile Include="TestsRepositorySTL.cpp" />
+    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="UtilizatorRez.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

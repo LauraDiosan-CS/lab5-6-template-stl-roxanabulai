@@ -11,9 +11,9 @@ private:
 	int loc;
 
 public:
-	Rezervare(); //constructor
-	Rezervare(int, char*, int); //constructor
-	Rezervare(const Rezervare&); //constructor
+	Rezervare(); //constructor implicit
+	Rezervare(int, char*, int); //constructor general
+	Rezervare(const Rezervare&); //constructor de copiere
 
 	int getCod();
 	char* getNume();
